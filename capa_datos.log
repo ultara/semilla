@@ -1,0 +1,10 @@
+07:19:17 AM: DEBUG [logger_base.py: 12] Mensaje a nivel debug
+07:19:17 AM: INFO [logger_base.py: 13] Mensaje a nivel info
+07:19:17 AM: WARNING [logger_base.py: 14] Mensaje a nivel warnig
+07:19:17 AM: ERROR [logger_base.py: 15] Mensaje a nivel error
+07:19:17 AM: CRITICAL [logger_base.py: 16] Mensaje a nivel critico
+07:35:38 AM: DEBUG [main.py: 16] Celular:
+   Price: 1200 
+   Image: None
+10:06:49 AM: DEBUG [items.py: 22] Name: cel, Price: 1200, Image: None
+10:07:18 AM: DEBUG [items.py: 22] Name: cel, Price: 1200, Image: None, Stock: 1
