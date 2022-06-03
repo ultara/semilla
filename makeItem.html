@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ES-MX">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +7,27 @@
     <title>Crear item</title>
 </head>
 <body>
-    <h1>Creador de items</h1>
-    <form action="">
-        <label for="name">Nombre:</label>
-        <br>
-        <input type="text" id="name">
-        <br>
-        <input type="submit" value="Enviar">
-    </form>
+    <div>
+        <form id="form">
+            <h1>Creador de items</h1>
+            <label for="name">Nombre:</label>
+            <br>
+            <input type="text" id="name">
+            <br>
+            <label for="price">Precio</label>
+            <br>
+            <input type="number" id="price">
+            <br>
+            <label for="image">Imagen</label>
+            <br>
+            <input type="text" id="image">
+            <br><br>
+        </form>
+        <button id="sendData">Enviar</button>
+        <label id="result"></label>
+    </div>
+
+    <script src="/Js/item.js"></script>
+    <script src="/Js/dataup.js"></script>
 </body>
 </html>
